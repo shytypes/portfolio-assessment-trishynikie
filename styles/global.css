@@ -22,9 +22,7 @@ body {
   }
 }
 
-}
-
-container {
+.container {
   max-width: 900px;
   margin: auto;
   background: #2e2e2e;
@@ -64,11 +62,11 @@ li:hover {
   animation: bounceHover 0.3s ease;
 }
 
-contact a {
+.contact a {
   color: #ffb6c1;
 }
 
-job-title {
+.contact {
   color: #f0f3f5;
   font-weight: bold;
 }
