@@ -51,13 +51,13 @@ p {
 }
 
 a {
-  color: #ffb6c1;
+  color: #270207;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 a:hover {
   text-decoration: underline;
-  color: #fff0f5;
+  color: #3a1521;
 }
 
 ul {
@@ -74,7 +74,7 @@ contact a {
 }
 
 job-title {
-  color: #ffd700;
+  color: #f0f3f5;
   font-weight: bold;
 }
 /*title text style*/
