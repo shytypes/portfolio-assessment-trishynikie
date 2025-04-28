@@ -4,10 +4,15 @@ on:
   push:
     branches: ['main']
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    if: github.repository_owner != 'shytypes' && github.repository_owner != 'AdamuAbba'
+    if: |
+      github.event.repository.name != 'vanilla-web-dev-speedrun-portfolio-assessment-portfolio-assignment' &&
+      github.event.repository.name != 'portfolio-starter-code'
 
     steps:
       - name: Checkout code
